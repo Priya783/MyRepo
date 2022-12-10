@@ -11,14 +11,18 @@ stages
    }
    }
   stage('test')
+  {
    step
    {
     echo "Testing"
    }
+   }
   stage('deploy')
+  {
    step
    {
     echo "Deploying---"
+   }
    }
 }
 }
